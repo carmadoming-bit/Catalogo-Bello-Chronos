@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Relojes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 25px 10px;
+        }
+
+        header img {
+            max-width: 180px;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 10px 0 5px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .catalogo {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .reloj {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .reloj img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .info h3 {
+            margin: 10px 0;
+        }
+
+        .info p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .precio {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #0a8f08;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+.qr {
+    margin-top: 15px;
+}
+
+.qr img {
+    width: 120px;
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <!-- LOGO -->
+    <img src="logo.png" alt="Logo del negocio">
+    <h1>Catálogo de Relojes</h1>
+    <p>Modelos disponibles</p>
+</header>
+
+<section class="catalogo">
+
+    <!-- RELOJ 1 -->
+    <div class="reloj">
+        <img src="reloj1.jpg">
+        <div class="info">
+            <h3>Reloj Modelo Cartier</h3>
+            <p>Elegancia y diseño.</p>
+            <p class="precio">$399 MXN</p>
+        </div>
+    </div>
+
+    <!-- RELOJ 2 -->
+    <div class="reloj">
+        <img src="reloj2.jpg">
+        <div class="info">
+            <h3>Reloj Modelo Minimalista</h3>
+            <p>Combinalo con lo que sea.</p>
+            <p class="precio">$249 MXN</p>
+        </div>
+    </div>
+
+    <!-- RELOJ 3 -->
+    <div class="reloj">
+        <img src="reloj3.jpg">
+        <div class="info">
+            <h3>Reloj Modelo Aqua</h3>
+            <p>Ideal para "la ocasión".</p>
+            <p class="precio">$249 MXN</p>
+        </div>
+    </div>
+
+    <!-- RELOJ 4 -->
+    <div class="reloj">
+        <img src="reloj4.jpg">
+        <div class="info">
+            <h3>Reloj Modelo Panter Black</h3>
+            <p>El Noir estilo RM.</p>
+            <p class="precio">$349 MXN</p>
+        </div>
+    </div>
+
+    <!-- RELOJ 5 -->
+    <div class="reloj">
+        <img src="reloj5.jpg">
+        <div class="info">
+            <h3>Reloj Modelo TOMI</h3>
+            <p>El lujo del tiempo C/I.</p>
+            <p class="precio">$599 MXN</p>
+        </div>
+    </div>
+
+    <!-- RELOJES 6 AL 20 -->
+    <!-- SOLO CAMBIA NÚMERO, TEXTO, PRECIO E IMAGEN -->
+
+    <!-- 6 -->
+    <div class="reloj"><img src="reloj6.jpg"><div class="info"><h3>Reloj Modelo Pure white</h3><p>lujoso perla RM.</p><p class="precio">$299 MXN</p></div></div>
+    <!-- 7 -->
+    <div class="reloj"><img src="reloj7.jpg"><div class="info"><h3>Reloj Modelo Tokyo</h3><p>Para tu noche de Gala.</p><p class="precio">$199 MXN</p></div></div>
+    <!-- 8 -->
+    <div class="reloj"><img src="reloj8.jpg"><div class="info"><h3>Reloj Modelo Maritimo</h3><p>Estilo RX.</p><p class="precio">$249 MXN</p></div></div>
+    <!-- 9 -->
+    <div class="reloj"><img src="reloj9.jpg"><div class="info"><h3>Reloj Modelo All Noir</h3><p>El soul del RM.</p><p class="precio">$299 MXN</p></div></div>
+    <!-- 10 -->
+    <div class="reloj"><img src="reloj10.jpg"><div class="info"><h3>Reloj Modelo Old Money</h3><p>Clasico Favorito C/I.</p><p class="precio">$499 MXN</p></div></div>
+    <!-- 11 -->
+    <div class="reloj"><img src="reloj11.jpg"><div class="info"><h3>Reloj Modelo Machine</h3><p>Resistencia y lujo.</p><p class="precio">$299 MXN</p></div></div>
+    <!-- 12 -->
+    <div class="reloj"><img src="reloj12.jpg"><div class="info"><h3>Reloj Modelo Iron Man</h3><p>Acabados de lujo RM.</p><p class="precio">$599 MXN</p></div></div>
+    <!-- 13 -->
+    <div class="reloj"><img src="reloj13.jpg"><div class="info"><h3>Reloj Modelo Suit</h3><p>Lucir Gentleman C/I.</p><p class="precio">$349 MXN</p></div></div>
+    <!-- 14 -->
+    <div class="reloj"><img src="reloj14.jpg"><div class="info"><h3>Reloj Modelo Casio</h3><p>Estilo retro.</p><p class="precio">$99 MXN</p></div></div>
+    <!-- 15 -->
+    <div class="reloj"><img src="reloj15.jpg"><div class="info"><h3>Reloj Modelo Minimalista</h3><p>Combinalo con lo que sea.</p><p class="precio">$249 MXN</p></div></div>
+    <!-- 16 -->
+    <div class="reloj"><img src="reloj16.jpg"><div class="info"><h3>Reloj Modelo Classic</h3><p>Top Clasico.</p><p class="precio">$149 MXN</p></div></div>
+    <!-- 17 -->
+    <div class="reloj"><img src="reloj17.jpg"><div class="info"><h3>Reloj Modelo Pinky</h3><p>La rosa classic.</p><p class="precio">$99 MXN</p></div></div>
+    <!-- 18 -->
+    <div class="reloj"><img src="reloj18.jpg"><div class="info"><h3>Proximamente</h3><p>Descripción.</p><p class="precio">$0 MXN</p></div></div>
+    <!-- 19 -->
+    <div class="reloj"><img src="reloj19.jpg"><div class="info"><h3>Proximamente</h3><p>Descripción.</p><p class="precio">$0 MXN</p></div></div>
+    <!-- 20 -->
+    <div class="reloj"><img src="reloj20.jpg"><div class="info"><h3>Proximamente</h3><p>Descripción.</p><p class="precio">$0 MXN</p></div></div>
+
+</section>
+
+
+<footer>
+    <p>📲 311 268 9066 Pedidos por WhatsApp | Entregas disponibles</p>
+
+    <div class="qr">
+        <p>Escanea para ver el catálogo</p>
+        <!-- QR -->
+        <img src="qr.png" alt="QR catálogo de relojes">
+    </div>
+</footer>
+
